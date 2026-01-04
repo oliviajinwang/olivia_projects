@@ -1,2 +1,3 @@
 # olivia_projects
-Olivia Wang's personal projects
+
+This is the repository for Olivia Wang's personal projects.
