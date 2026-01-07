@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data
-datafile = pd.read_csv("data_visualization_spotify\spotify_data_clean.csv")
+datafile = pd.read_csv("data_visualization_spotify/spotify_data_clean.csv")
 
 sort_column = 'track_popularity'
 ascending_order = False
@@ -26,7 +26,7 @@ top_tracks.plot.bar(
     y='track_popularity',
     title='Top 10 Popular Tracks recently'
 )
-plt.title("Top 10 Popular Tracks from 2025")
+plt.title("Top 10 Popular Tracks between 2009-2025")
 plt.xlabel("Track")
 plt.ylabel("Popularity")
 plt.xticks(rotation=45,ha='right')
