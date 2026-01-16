@@ -64,7 +64,7 @@ Thus, I needed to find a way to clean the data, which would include reducing the
 ![Track to Artist Popularity with Cleaned Data](./spotify_cleaned_track_to_artist_popularity.png)
 
 This graph solves the problem in the first graph in a few ways. 
-* Firstly, I created a new dataframe that aggregated track popularity by its average, grouping the resulting values by artist.
+* Firstly, I created a new dataframe that aggregated track popularity by its maximum value, grouping the resulting values by artist.
 * Next, in the new dataframe, I counted the number of track ids, also grouped by artists.
 * Finally, I cleaned out extraneous data by only taking tracks with a popularity greater than zero and artists who had two or more songs. This significantly reduced the number of data values as well as noise.
 
