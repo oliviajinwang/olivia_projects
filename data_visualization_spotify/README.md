@@ -21,7 +21,9 @@ There are 8582 unique track ids recorded, each accompanied with information over
 * Artist genres
 
 
-## Visualization
+## Data Analysis and Visualization
+
+Each session represents a distinct experiment in data analysis and visualization. Presented in reverse-chronological order, these projects track my progress through increasingly complex data processing challenges, culminating in my most sophisticated work to date.
 
 ### Distribution of Track Genres
 
@@ -59,20 +61,6 @@ In order to confirm this relationship of exponential growth, I decided to apply 
 
 This is the graph that shows the Log Transformation on the follower count. The relationship has turned from exponential to linear, confirming the exponential relationship between the two metrics.  
 
-### Music Popularity Trend
-
-![Music Popularity By Year](./graphs/spotify_music_popularity_by_year.png)
-
-This was the second visualization. This visualization was more difficult than the last; I wanted to choose a line graph, as well as a more complex prompt that could showcase trends instead of plain statistics. 
-
-Initially, I wanted to model the popularity of different genres over time, but my approach found that the genres listed in the datafile were so diverse that the visualization could not showcase any trends. For example, one song was labeled under the genre 'neo-psychedelic', while I was looking for general categories such as pop or 90's rap. 
-
-Thus, I decided to switch the prompt, and then chose average track popularity over time, in which I could change the label to something quantifiable. I found that choosing the mean instead of the sum of track popularities would better fit because the number of tracks per year varied. 
-
-The next challenge I encountered was that the data needed to be cleaned. The release date was put in terms of year-month-day, but I only needed the year for my data. I learned that I could use a function to convert the string to a datatime type that could extract the year. 
-
-The graph shows an increase in average track popularity from the 1950s to the 1980s, peaking around 1983 at a popularity of about 80. Then, it dropped in the early 1990s, and later stabilized at around 50-55 in the later years. This means that 80's music was generally more popular and there were very popular artists at the time. For example, popular 80s artists include Michael Jackson, Whitney Houston, and Madonna, who are all incredibly influential in the music industry.
-
 ### Track to Artist Popularity
 
 ![Track to Artist Popularity](./graphs/spotify_track_to_artist_popularity.png)
@@ -98,6 +86,20 @@ This graph solves the problem in the first graph in a few ways.
 Finally, the graph is interepretable. The scatter plot shows that artist popularity and track popularity have a strong positive correlation, meaning that as an artist becomes more popular, the songs they produce naturally will as well. 
 
 From this experience, I learned a couple things. The first was how to aggregate multiple columns using the groupby() method, which will take values in groups and not the entire column as I did previously. The second thing was the general process of data cleaning by taking constraints that limit unnecessary or unhelpful data. 
+
+### Music Popularity Trend
+
+![Music Popularity By Year](./graphs/spotify_music_popularity_by_year.png)
+
+This was the second visualization. This visualization was more difficult than the last; I wanted to choose a line graph, as well as a more complex prompt that could showcase trends instead of plain statistics. 
+
+Initially, I wanted to model the popularity of different genres over time, but my approach found that the genres listed in the datafile were so diverse that the visualization could not showcase any trends. For example, one song was labeled under the genre 'neo-psychedelic', while I was looking for general categories such as pop or 90's rap. 
+
+Thus, I decided to switch the prompt, and then chose average track popularity over time, in which I could change the label to something quantifiable. I found that choosing the mean instead of the sum of track popularities would better fit because the number of tracks per year varied. 
+
+The next challenge I encountered was that the data needed to be cleaned. The release date was put in terms of year-month-day, but I only needed the year for my data. I learned that I could use a function to convert the string to a datatime type that could extract the year. 
+
+The graph shows an increase in average track popularity from the 1950s to the 1980s, peaking around 1983 at a popularity of about 80. Then, it dropped in the early 1990s, and later stabilized at around 50-55 in the later years. This means that 80's music was generally more popular and there were very popular artists at the time. For example, popular 80s artists include Michael Jackson, Whitney Houston, and Madonna, who are all incredibly influential in the music industry.
 
 ### Top 10 Popular Tracks
 
