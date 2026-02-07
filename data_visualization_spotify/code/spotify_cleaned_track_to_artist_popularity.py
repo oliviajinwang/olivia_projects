@@ -13,7 +13,10 @@ new_df = pd.DataFrame({
 })
 
 # This aggregates by artist, combining track popularities and artist 
-# popularities into a harmonic mean 
+# popularities.
+# For one artist, there could be multiple tracks, pick the max track
+# popularity.
+# The artist popularity will be the same, picking average is enough.
 artist_stats = new_df.groupby('artist_name').agg({
     'track_popularity': 'max',
     'artist_popularity': 'mean',

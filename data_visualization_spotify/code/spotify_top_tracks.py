@@ -24,7 +24,7 @@ plt.figure()
 top_tracks.plot.bar(
     x='track_name',
     y='track_popularity',
-    title='Top 10 Popular Tracks recently'
+    title='Top 10 Popular Tracks between 2009-2025'
 )
 plt.title("Top 10 Popular Tracks between 2009-2025")
 plt.xlabel("Track")

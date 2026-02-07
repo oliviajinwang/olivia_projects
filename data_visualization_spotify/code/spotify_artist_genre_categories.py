@@ -25,10 +25,14 @@ def parse_genres(row):
     except Exception as e:
         print(f"Exception: {e} | Value: {genre_str}")
         return []
-    
+
+# dataframe.apply() allows apply a function to each row of the dataframe.
+# To apply a function to a column, use df['column'].apply().
 df['parsed_genres'] = df.apply(parse_genres, axis=1)
 
-# Define the consolidation logic
+# Define a genre_map to map a genra to a category.
+# After producing the graph, some categories are very small, comment them
+# out from the pie chart.
 genre_map = {
     'Pop': ['pop', 'disco', 'boy band', 'indie', 'anime'],
     'Hip-Hop/Rap': ['hip hop', 'rap', 'trap', 'drill', 'hop', 'phonk'],
@@ -44,8 +48,8 @@ genre_map = {
 
 no_match_count = 0
 
-# This function takes the genres of a song, then returns a map with each matching category
-# and its corresponding weight
+# This function takes the genres of a song, then returns a map with
+# each matching category and its corresponding weight
 def get_genre_weights(genres):
     global no_match_count
 
@@ -74,6 +78,9 @@ def get_genre_weights(genres):
 weights_list = df['parsed_genres'].apply(get_genre_weights)
 
 # Aggregate weights into a total
+# The total_distribution is a map of category to count, each weight_dict
+# is also a map of category to count. By updating weight_dict to
+# total_distribution, it aggregates the count for each category.
 total_distribution = Counter()
 for weight_dict in weights_list:
     total_distribution.update(weight_dict)
@@ -93,9 +100,9 @@ genre_counts.plot(
     colors=plt.cm.Paired.colors # Gives it a nice variety of colors
 )
 
-# 2. Add a title
+# Add a title
 plt.title('Consolidated Artist Genre Distribution (Weighted)')
 
-# 3. Clean up the look
+# Clean up the look
 plt.ylabel('') # Hides the 'None' label on the side
 plt.show()

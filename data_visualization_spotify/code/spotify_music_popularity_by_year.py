@@ -21,6 +21,8 @@ new_df = new_df.dropna(subset=['year'])
 # This step converts the year to an integer
 new_df['year'] = new_df['year'].astype(int)
 
+# After the year is computed, group it by year and compute average
+# of the popularity.
 popularity_by_year = new_df.groupby('year')['popularity'].mean()
 
 plt.figure()
