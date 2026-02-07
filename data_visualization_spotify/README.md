@@ -99,20 +99,6 @@ Finally, the graph is interepretable. The scatter plot shows that artist popular
 
 From this experience, I learned a couple things. The first was how to aggregate multiple columns using the groupby() method, which will take values in groups and not the entire column as I did previously. The second thing was the general process of data cleaning by taking constraints that limit unnecessary or unhelpful data. 
 
-### Artist Popularity to Followers
-
-![Artist Popularity to Followers](./spotify_artist_popularity_to_followers.png)
-
-This was another scatter plot I did, which visualizes the relationship between an artists poularity to their follower count. 
-
-I visualized raw data multiple times, using different ceiling numbers to control the range of follower counts. This was because there were likely 5-10 artists that had extremely high follower counts compared to the rest, which skewed the data. However, no matter which ceiling number I used, there was always an exponential relationship between the two values, which indicates that as an artist grows more popular, their follower count grows exponentially. 
-
-In order to confirm this relationship of exponential growth, I decided to apply a Log Transformation for the follower count, and produced a second graph. 
-
-![Artist Popularity to Logarithm of Followers](./spotify_artist_popularity_to_logarithm_followers.png)
-
-This is the graph that shows the Log Transformation on the follower count. The relationship has turned from exponential to linear, confirming the exponential relationship between the two metrics.  
-
 ### Top 10 Popular Tracks
 
 ![Track Popularity](./spotify_top_tracks.png)
