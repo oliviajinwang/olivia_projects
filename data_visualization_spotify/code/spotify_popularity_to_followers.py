@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load data
-dataframe = pd.read_csv("data_visualization_spotify/spotify_data_clean.csv")
+dataframe = pd.read_csv("data_visualization_spotify/data/spotify_data_clean.csv")
 
 # Alternative file load path.
 # datafram = pd.read_csv("D:/Olivia/GitHub/olivia_projects/data_visualization_spotify/spotify_data_clean.csv")

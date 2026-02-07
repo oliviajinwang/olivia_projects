@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from collections import Counter
 
 # Load the dataset
-df = pandas.read_csv('data_visualization_spotify/spotify_data_clean.csv')
+df = pandas.read_csv('data_visualization_spotify/data/spotify_data_clean.csv')
 
 # Parse the artist_genres column
 def parse_genres(row):

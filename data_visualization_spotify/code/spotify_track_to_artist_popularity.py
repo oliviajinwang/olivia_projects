@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data
-dataframe = pd.read_csv("data_visualization_spotify/spotify_data_clean.csv")
+dataframe = pd.read_csv("data_visualization_spotify/data/spotify_data_clean.csv")
 
 # Quick sanity check
 print(dataframe.head())

@@ -25,7 +25,7 @@ There are 8582 unique track ids recorded, each accompanied with information over
 
 ### Distribution of Track Genres
 
-![Distribution of Track Genres](./spotify_distribution_genres.png)
+![Distribution of Track Genres](./graphs/spotify_distribution_genres.png)
 
 I wanted to create a pie chart to try out another graph in matplotlib, but I found that there weren't many options for visualizing distribution of a whole. I could have done explicit songs to non explicit songs as percentages, but that seemed a little easy. So, I decided to challenge myself and try visualizing the distribution of genres instead.
 
@@ -47,7 +47,7 @@ Looking at the visualization, it seems that Pop is the most popular category by 
 
 ### Artist Popularity to Followers
 
-![Artist Popularity to Followers](./spotify_artist_popularity_to_followers.png)
+![Artist Popularity to Followers](./graphs/spotify_artist_popularity_to_followers.png)
 
 This was another scatter plot I did, which visualizes the relationship between an artists poularity to their follower count. 
 
@@ -55,13 +55,13 @@ I visualized raw data multiple times, using different ceiling numbers to control
 
 In order to confirm this relationship of exponential growth, I decided to apply a Log Transformation for the follower count, and produced a second graph. 
 
-![Artist Popularity to Logarithm of Followers](./spotify_artist_popularity_to_logarithm_followers.png)
+![Artist Popularity to Logarithm of Followers](./graphs/spotify_artist_popularity_to_logarithm_followers.png)
 
 This is the graph that shows the Log Transformation on the follower count. The relationship has turned from exponential to linear, confirming the exponential relationship between the two metrics.  
 
 ### Music Popularity Trend
 
-![Music Popularity By Year](./spotify_music_popularity_by_year.png)
+![Music Popularity By Year](./graphs/spotify_music_popularity_by_year.png)
 
 This was the second visualization. This visualization was more difficult than the last; I wanted to choose a line graph, as well as a more complex prompt that could showcase trends instead of plain statistics. 
 
@@ -75,7 +75,7 @@ The graph shows an increase in average track popularity from the 1950s to the 19
 
 ### Track to Artist Popularity
 
-![Track to Artist Popularity](./spotify_track_to_artist_popularity.png)
+![Track to Artist Popularity](./graphs/spotify_track_to_artist_popularity.png)
 
 This was the next visualization I did, which was a scatter plot. I chose to visualize the relationship between Track Popularity to Artist popularity, in order to see if the popularity of an artist always affects the popularity of their work. 
 
@@ -88,7 +88,7 @@ However, this graph is difficult to interpret in a couple of ways.
 
 Thus, I needed to find a way to clean the data, which would include reducing the amount of values as well as unnecessary noise. Looking closer into the data, I eventually produced another graph. 
 
-![Track to Artist Popularity with Cleaned Data](./spotify_cleaned_track_to_artist_popularity.png)
+![Track to Artist Popularity with Cleaned Data](./graphs/spotify_cleaned_track_to_artist_popularity.png)
 
 This graph solves the problem in the first graph in a few ways. 
 * Firstly, I created a new dataframe that aggregated track popularity by its maximum value, grouping the resulting values by artist.
@@ -101,7 +101,7 @@ From this experience, I learned a couple things. The first was how to aggregate 
 
 ### Top 10 Popular Tracks
 
-![Track Popularity](./spotify_top_tracks.png)
+![Track Popularity](./graphs/spotify_top_tracks.png)
 
 This was the first visualization that I did. 
 For starters, I was unfamiliar with the python libraries--pandas and matplotlib. I started with a simple bar graph that has straightforward metrics. These metrics included the track popularity and track name. 

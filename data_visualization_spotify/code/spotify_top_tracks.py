@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data
-datafile = pd.read_csv("data_visualization_spotify/spotify_data_clean.csv")
+datafile = pd.read_csv("data_visualization_spotify/data/spotify_data_clean.csv")
 
 sort_column = 'track_popularity'
 ascending_order = False
