@@ -23,7 +23,7 @@ There are 8582 unique tracks recorded, each accompanied with information over a 
 
 Each session represents a distinct experiment in data analysis and visualization. Presented in reverse-chronological order, these projects track my progress through increasingly complex data processing challenges, culminating in my most sophisticated work to date.
 
-### Distribution of Track Genres
+### Distribution of Track Genres ([code](code/spotify_artist_genre_categories.py))
 
 ![Distribution of Track Genres](./graphs/spotify_distribution_genres.png)
 
@@ -45,7 +45,7 @@ After I successfully produced the pie chart, I found that there were some catego
 
 Looking at the visualization, it seems that Pop is the most popular category by far, followed by Rock, Hip-hop, and country. Pop is an extremely broad category, which includes many sub-genres such as Indie pop or Synth pop, making it look larger in comparison to the others. However, this data can also be attributed to the fact that major record labels invest the most into Pop and Hip-hop production as it does well in media and with the younger audience. 
 
-### Artist Popularity to Followers
+### Artist Popularity to Followers ([code](code/spotify_popularity_to_followers.py))
 
 ![Artist Popularity to Followers](./graphs/spotify_artist_popularity_to_followers.png)
 
@@ -59,7 +59,7 @@ In order to confirm this relationship of exponential growth, I decided to apply 
 
 This is the graph that shows the Log Transformation on the follower count. The relationship has turned from exponential to linear, confirming the exponential relationship between the two metrics.  
 
-### Track to Artist Popularity
+### Track to Artist Popularity ([code for graph1](code/spotify_track_to_artist_popularity.py), [code for graph2](code/spotify_cleaned_track_to_artist_popularity.py))
 
 ![Track to Artist Popularity](./graphs/spotify_track_to_artist_popularity.png)
 
@@ -85,7 +85,7 @@ Finally, the graph is interepretable. The scatter plot shows that artist popular
 
 From this experience, I learned a couple things. The first was how to aggregate multiple columns using the groupby() method, which will take values in groups and not the entire column as I did previously. The second thing was the general process of data cleaning by taking constraints that limit unnecessary or unhelpful data. 
 
-### Music Popularity Trend
+### Music Popularity Trend ([code](code/spotify_music_popularity_by_year.py))
 
 ![Music Popularity By Year](./graphs/spotify_music_popularity_by_year.png)
 
@@ -99,7 +99,7 @@ The next challenge I encountered was that the data needed to be cleaned. The rel
 
 The graph shows an increase in average track popularity from the 1950s to the 1980s, peaking around 1983 at a popularity of about 80. Then, it dropped in the early 1990s, and later stabilized at around 50-55 in the later years. This means that 80's music was generally more popular and there were very popular artists at the time. For example, popular 80s artists include Michael Jackson, Whitney Houston, and Madonna, who are all incredibly influential in the music industry.
 
-### Top 10 Popular Tracks
+### Top 10 Popular Tracks ([code](code/spotify_top_tracks.py))
 
 ![Track Popularity](./graphs/spotify_top_tracks.png)
 
