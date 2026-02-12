@@ -2,6 +2,61 @@
 
 This repository showcases my art journey, from my first acrylic pour to my favorite oil paintings. Throughout this journey, I've learned to appreciate the beauty of the world, as well as enhance my technical art skills in perspective, anatomy, and color theory. 
 
+## Self Portrait Camera View (Charcoal, 19x25)
+
+<table width="100%">
+  <tr>
+    <td width="60%">
+        <img src="pen_drawings/Self_portrait_camera_view_25x19.jpg">
+    </td>
+    <td width="40%", valign="top">
+        I'm a big forehead and stubby fingers,<br>
+        ash hair and imperfections;<br>
+        but my smile is sort of pretty, don't you think so?<br>
+    </td>
+  </tr>
+</table>
+
+## Female Angel, Male Angel (Acrylic, 12x12)
+
+<table width="100%">
+  <tr>
+    <td width="50%", valign="top">
+        We lay poised with the other in intention, <br>
+        My sick line of blood stops then where you begin,<br>
+        So the organ which pumps swells in distention,<br>
+    </td>
+    <td width="50%">
+        <img src="paintings/Female_angel_with_dart_wings_10x10.jpg">
+    </td>
+  </tr>
+  <tr>
+    <td width="50%", valign="top">
+        When the arrow of Paris lands on raw skin,<br>
+        And the loveliest wings begin to collapse,<br>
+        The love which keeps us apart starts to wear thin,<br>
+    </td>
+    <td width="50%">
+        <img src="paintings/Male_angel_with_arrow_12x12.jpg">
+    </td>
+  </tr>
+</table>
+
+## Whale in the Sky (Oil paint, 18x24)
+
+<table width="100%">
+  <tr>
+    <td width="60%">
+        <img src="paintings/Whale_Sky_24x18.jpg">
+    </td>
+    <td width="40%", valign="top">
+        Eyes that travel far,<br>
+        Results not in yearning, but<br>
+        Lovely stagnation.<br>
+    </td>
+  </tr>
+</table>
+
 ## Four seasons (Acrylic, 12x12)
 
 <table width="100%">
@@ -50,50 +105,25 @@ This repository showcases my art journey, from my first acrylic pour to my favor
   </tr>
 </table>
 
-
-## Female Angel, Male Angel (Acrylic, 12x12)
+## Couple In Classic Style (Digital, 2400x3600)
 
 <table width="100%">
   <tr>
-    <td width="50%", valign="top">
-        We lay poised with the other in intention, <br>
-        My sick line of blood stops then where you begin,<br>
-        So the organ which pumps swells in distention,<br>
+    <td width="60%">
+        <img src="digital_procreate/couple_classic.jpg">
     </td>
-    <td width="50%">
-        <img src="paintings/Female_angel_with_dart_wings_10x10.jpg">
-    </td>
-  </tr>
-  <tr>
-    <td width="50%", valign="top">
-        When the arrow of Paris lands on raw skin,<br>
-        And the loveliest wings begin to collapse,<br>
-        The love which keeps us apart starts to wear thin,<br>
-    </td>
-    <td width="50%">
-        <img src="paintings/Male_angel_with_arrow_12x12.jpg">
-    </td>
-  </tr>
-  <tr>
-    <td width="50%", valign="top">
-        And when in your mind my lovely image cracks,<br>
-    </td>
-    <td width="50%">
+    <td width="40%", valign="top">
+        When princesses dance on their heels,<br>
+        And kings sign documents with wax seals,<br>
+        Ruined soldiers grip their rifles<br>
+        To not burden their leaders with insignificant trifles.<br>
+        Oh, poor youth,<br>
+        Ripped to shreds by avoidance of cruel truth.<br>
+        New day, die and rebirth.<br>
+        After <a href="https://www.royalacademy.org.uk/art-artists/work-of-art/st-george-2">St George</a>.
     </td>
   </tr>
 </table>
 
-## Whale in the Sky (Oil paint, 18x24)
+## Other Technical Drawings [(link)](Technical.md)
 
-<table width="100%">
-  <tr>
-    <td width="70%">
-        <img src="paintings/Whale_Sky_24x18.jpg">
-    </td>
-    <td width="30%", valign="top">
-        Eyes that travel far,<br>
-        Results not in yearning, but<br>
-        Lovely stagnation.<br>
-    </td>
-  </tr>
-</table>
