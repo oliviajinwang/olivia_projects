@@ -2,6 +2,21 @@
 
 This repository showcases my art journey, from my first acrylic pour to my favorite oil paintings. Throughout this journey, I've learned to appreciate the beauty of the world, as well as enhance my technical art skills in perspective, anatomy, and color theory. 
 
+## Apollo in the Colosseum (Acrylic, 24x18)
+
+<table width="100%">
+  <tr>
+    <td width="60%">
+        <img src="paintings/Apollo_24x18.jpg">
+    </td>
+    <td width="40%", valign="top">
+        Glowing lights shine down,<br>
+        On the boy that seeks the dark.<br>
+        Bathed in bloody fame.<br>
+    </td>
+  </tr>
+</table>
+
 ## Self Portrait Camera View (Charcoal, 19x25)
 
 <table width="100%">

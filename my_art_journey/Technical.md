@@ -50,6 +50,18 @@ My other selected drawings.
   </tr>
 </table>
 
+## Ram Skull (21x15)
+
+<table width="100%">
+  <tr>
+    <td width="70%">
+        <img src="pen_drawings/Ram_skull_21x15.jpg">
+    </td>
+    <td width="30%">
+    </td>
+  </tr>
+</table>
+
 ## Reflection (18x24)
 
 <table width="100%">
