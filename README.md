@@ -2,12 +2,12 @@
 
 This is the repository for Olivia Wang's personal projects.
 
-## National Park Guardian AI - EMP Hackfest 2026 Winner Project!
+## National Park Guardian AI - EMP Hackfest 2026 1st Place Winner Project!
 
 We just won the [EMP Hackfest 2026](https://emphackfest.org/current-event) with our National Park Guardian AI project!
 
 * Repo: [oliviajinwang/wildfest2026](https://github.com/oliviajinwang/emp_hackfest/tree/main/wildfest2026)
-* DevPost 1st Place Winner Submission: [National Park Guardian AI](https://devpost.com/software/national-park-guardian-ai)
+* 1st Place Winner Submission on DevPost: [National Park Guardian AI](https://devpost.com/software/national-park-guardian-ai)
 * Demo: [youtube](https://www.youtube.com/watch?v=OkV3xOn7RiI)
 
 

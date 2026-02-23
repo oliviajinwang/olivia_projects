@@ -1,8 +1,8 @@
-> [!NOTES]
+> [!NOTE]
 >## News
->We won the [EMP Hackfest 2026](https://emphackfest.org/current-event) with our $\color{red}{National Park Guardian AI Project}!
+>We won the [EMP Hackfest 2026](https://emphackfest.org/current-event) with our $\color{green}{National Park Guardian AI Project}$!
 > * Repo: [oliviajinwang/wildfest2026](https://github.com/oliviajinwang/emp_hackfest/tree/main/wildfest2026)
-> * DevPost 1st Place Winner Submission: [National Park Guardian AI](https://devpost.com/software/national-park-guardian-ai)
+> * 1st Place Winner Submission on DevPost: [National Park Guardian AI](https://devpost.com/software/national-park-guardian-ai)
 > * Demo: [youtube](https://www.youtube.com/watch?v=OkV3xOn7RiI)
 
 ---
