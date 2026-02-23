@@ -1,3 +1,12 @@
+> [!NOTES]
+>## News
+>We won the [EMP Hackfest 2026](https://emphackfest.org/current-event) with our $\color{red}{National Park Guardian AI Project}!
+> * Repo: [oliviajinwang/wildfest2026](https://github.com/oliviajinwang/emp_hackfest/tree/main/wildfest2026)
+> * DevPost 1st Place Winner Submission: [National Park Guardian AI](https://devpost.com/software/national-park-guardian-ai)
+> * Demo: [youtube](https://www.youtube.com/watch?v=OkV3xOn7RiI)
+
+---
+
 # Data Visualization for Spotify Global Music Data
 
 This project explores the visualization of popular tracks and artists on Spotify between 2009-2025.
@@ -6,6 +15,7 @@ Our data source is from Kaggle:
 https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025
 
 I used Python libraries, including pandas and matplotlib, to analyze and visualize trends in the data.
+
 
 ## Data
 
